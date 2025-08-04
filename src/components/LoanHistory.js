@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaHistory, FaTrash, FaEye, FaCalendarAlt } from 'react-icons/fa';
-import { loanApi } from '../services/api-vercel';
+import { loanApi } from '../services/api-standalone';
 import './LoanHistory.css';
 
 const LoanHistory = () => {

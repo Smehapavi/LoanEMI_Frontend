@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaCalculator, FaMoneyBillWave, FaPercent, FaCalendarAlt } from 'react-icons/fa';
-import { loanApi } from '../services/api-vercel';
+import { loanApi } from '../services/api-standalone';
 import './EmiCalculator.css';
 
 const EmiCalculator = () => {
