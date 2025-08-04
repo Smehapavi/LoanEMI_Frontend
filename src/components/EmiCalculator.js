@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaCalculator, FaMoneyBillWave, FaPercent, FaCalendarAlt } from 'react-icons/fa';
-import { loanApi } from '../services/api-render';
+import { loanApi } from '../services/api-vercel';
 import './EmiCalculator.css';
 
 const EmiCalculator = () => {
@@ -52,9 +52,9 @@ const EmiCalculator = () => {
     }).format(amount);
   };
 
-  const formatNumber = (number) => {
-    return new Intl.NumberFormat('en-IN').format(number);
-  };
+  // const formatNumber = (number) => {
+  //   return new Intl.NumberFormat('en-IN').format(number);
+  // };
 
   return (
     <div className="emi-calculator">
